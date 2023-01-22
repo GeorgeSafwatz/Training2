@@ -1,0 +1,139 @@
+@media (max-width: 767.98px) {
+}
+
+@media (min-width: 991.98px) {
+  .hero-title {
+    position: relative;
+    top: 4rem;
+  }
+}
+
+@media (min-width: 1199.98px) {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: auto;
+  height: 100%;
+  max-height: 100%;
+}
+
+html {
+  width: 100%;
+}
+
+:root {
+  --textcolor: rgb(251, 235, 255);
+  --textcolordark: rgb(149, 0, 186);
+}
+
+body {
+  text-align: center;
+  color: var(--textcolor);
+  font-family: sans-serif;
+}
+
+nav {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+#home {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.play-tutorial img {
+  width: 5%;
+}
+
+.play-tutorial:hover {
+  transition: 100ms;
+  opacity: 80%;
+}
+
+h3,
+p,
+h1 {
+  color: var(--textcolordark);
+}
+
+.question::before {
+  content: " ";
+  width: 50%;
+  height: 3px;
+  background-color: #a517ba;
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 6px;
+}
+
+#services button {
+  background-image: linear-gradient(to bottom, #ba1cd2, #7721a1);
+}
+
+#services button:hover {
+  transition: 150ms;
+  background-image: linear-gradient(to bottom, #8b00a1, #580084);
+}
+
+#about-us {
+  color: var(--textcolordark);
+}
+
+#about-us .why-us::before {
+  content: " ";
+  width: 50%;
+  height: 3px;
+  background-color: #a517ba;
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 6px;
+}
+
+#testimonials h1::before {
+  content: " ";
+  width: 50%;
+  height: 3px;
+  background-color: #a517ba;
+  position: absolute;
+  bottom: -1rem;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 6px;
+}
+
+#testimonials img {
+  width: 12%;
+  height: 12%;
+}
+
+.testy::before {
+  content: " ";
+  width: 3px;
+  height: 100%;
+  background-color: #a517ba;
+  position: absolute;
+  left: -0.5rem;
+  bottom: 0;
+  transform: translate(-50%);
+  border-radius: 6px;
+}
+
+.testy {
+  background-color: #fce9ff;
+}
+
+#contact img {
+  width: 8%;
+}
+
+#contact {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
